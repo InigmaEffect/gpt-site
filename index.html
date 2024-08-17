@@ -5,50 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxury Watch Brand</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
-    <!-- Header with Navigation Links -->
     <header>
         <div class="logo">
-            <img src="logo.png" alt="Brand Logo">
+            <a href="#" onclick="loadPage('index-content.html')"><img src="logo.png" alt="Brand Logo"></a>
         </div>
         <nav>
-    <ul>
-        <li><a href="reserve.html">Reserve Your Watch!</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="https://www.patreon.com/yourpage" target="_blank">Patreon</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="founder.html">Founder</a></li>
-    </ul>
+            <ul>
+                <li><a href="#" onclick="loadPage('index-content.html')">Home</a></li>
+                <li><a href="#" onclick="loadPage('reserve-content.html')">Reserve Your Watch!</a></li>
+                <li><a href="#" onclick="loadPage('about-content.html')">About Us</a></li>
+                <li><a href="https://www.patreon.com/yourpage" target="_blank">Patreon</a></li>
+                <li><a href="#" onclick="loadPage('contact-content.html')">Contact Us</a></li>
+                <li><a href="#" onclick="loadPage('founder-content.html')">Founder</a></li>
+            </ul>
         </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Section 1: Big Heading and Text -->
+    <main id="content">
+        <!-- Initial content goes here -->
         <section>
             <h1>Welcome to [Your Brand]</h1>
             <p>Experience luxury like never before.</p>
         </section>
-
-        <!-- Section 2: Details with Images -->
-        <section>
-            <p>Discover our unique and innovative designs.</p>
-            <div class="image-row">
-                <img src="image1.jpg" alt="Watch Image 1">
-                <img src="image2.jpg" alt="Watch Image 2">
-                <img src="image3.jpg" alt="Watch Image 3">
-            </div>
-        </section>
-
-        <!-- Section 3: Ending Words and CTA Button -->
-        <section>
-            <p>Join the revolution of luxury timepieces.</p>
-            <a href="reserve.html" class="cta-button">Reserve Your Watch!</a>
-        </section>
     </main>
 
-    <!-- Footer (if needed) -->
     <footer>
         <p>&copy; 2024 [Your Brand]. All rights reserved.</p>
     </footer>
