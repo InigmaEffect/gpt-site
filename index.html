@@ -3,37 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Watch Brand</title>
+    <title>Inigma Effect - Your Place In Time</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="#" onclick="loadPage('index-content.html')"><img src="logo.png" alt="Brand Logo"></a>
+            <img src="logo.png" alt="Inigma Effect Logo">
         </div>
         <nav>
             <ul>
-                <li><a href="#" onclick="loadPage('index-content.html')">Home</a></li>
-                <li><a href="#" onclick="loadPage('reserve-content.html')">Reserve Your Watch!</a></li>
-                <li><a href="#" onclick="loadPage('about-content.html')">About Us</a></li>
-                <li><a href="https://www.patreon.com/yourpage" target="_blank">Patreon</a></li>
-                <li><a href="#" onclick="loadPage('contact-content.html')">Contact Us</a></li>
-                <li><a href="#" onclick="loadPage('founder-content.html')">Founder</a></li>
+                <li><a href="#reserve">Reserve Your Watch!</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#patreon">Patreon</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#founder">Founder</a></li>
             </ul>
         </nav>
     </header>
 
-    <main id="content">
-        <!-- Initial content goes here -->
-        <section>
-            <h1>Welcome to [Your Brand]</h1>
-            <p>Experience luxury like never before.</p>
+    <main>
+        <section class="hero">
+            <h1>Exclusive Luxury Watches</h1>
+            <p>Crafted with precision, inspired by speed.</p>
+        </section>
+
+        <section class="details">
+            <p>Our watches are inspired by the timeless elegance of sports cars and the cutting-edge technology of speed cameras. Each piece is a work of art, designed for those who appreciate the finer things in life.</p>
+            <div class="images">
+                <img src="image1.jpg" alt="Watch Image 1">
+                <img src="image2.jpg" alt="Watch Image 2">
+                <img src="image3.jpg" alt="Watch Image 3">
+            </div>
+        </section>
+
+        <section class="brand-story" id="about">
+            <div class="text">
+                <h2>About Inigma Effect</h2>
+                <p>Your Place In Time. Inigma Effect blends innovation with tradition, creating timepieces that are not only a testament to fine craftsmanship but also a symbol of status and sophistication. Our designs are for those who dare to stand out, who value exclusivity, and who appreciate the intricate balance between art and technology.</p>
+            </div>
+            <div class="image">
+                <img src="brand-story.jpg" alt="Inigma Effect Brand Image">
+            </div>
+        </section>
+
+        <section class="cta">
+            <p>Join the exclusive list of collectors today.</p>
+            <a href="#reserve" class="cta-button">Reserve Your Watch!</a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 [Your Brand]. All rights reserved.</p>
+        <p>&copy; 2024 Inigma Effect. All rights reserved.</p>
     </footer>
 </body>
 </html>
